@@ -7,9 +7,9 @@ namespace LeetSpeak.Tests
   public class LeetSpeakTests
   {
     [TestMethod]
-    public void speak_ReturnsInput_Same()
+    public void Translate_ChangeEsTo3s_sl33p()
     {
-      Assert.AreEqual("input", LeetSpeak.speak("input"));
+      Assert.AreEqual("sl33p", eChange('sleep'))
     }
   }
 }

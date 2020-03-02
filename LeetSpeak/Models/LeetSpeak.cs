@@ -3,7 +3,7 @@ namespace LeetSpeak
 {
   public class LeetSpeak
   {
-    public static string speak(string input)
+    public static string Translate(string input)
     {
       return input;
     }
