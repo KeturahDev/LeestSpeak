@@ -5,7 +5,7 @@ namespace LeetSpeak
   {
     public static string speak(string input)
     {
-      return "fail";
+      return input;
     }
     static void Main()
     {
