@@ -6,7 +6,7 @@
 
 ## Description
 
-Wanna feel like your reading "coded" !
+Wanna feel like your reading "coded" messages from a 5th grader? Leet-afy your code with LeetSpeak! Just type into the console, and recieve the LeetSpeak version of your input. V3ry fun. Much w0w.
 
 ## Specifications:
 
