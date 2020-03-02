@@ -9,7 +9,7 @@ namespace LeetSpeak.Tests
     [TestMethod]
     public void Translate_ChangeEsTo3s_sl33p()
     {
-      Assert.AreEqual("sl33p", eChange('sleep'))
+      Assert.AreEqual("sl33p", LeetSpeak.Translate("sleep"));
     }
   }
 }
