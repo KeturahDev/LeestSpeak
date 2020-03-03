@@ -13,12 +13,12 @@ Wanna feel like your reading "coded" messages from a 5th grader? Leet-afy your c
 
 | Specification | Example Input | Example Output |
 | :------------- |:-------------| :-------------------|
-| User inputs a string and it is returned back to them | Hello there | Hello there |
 | All letters of 'e' are replaced with 3 | Hello there | H3llo th3r3 |
 | All letters of 't' are replaced with 7 | Hello there | H3llo 7h3r3 |
 | All letters of 'o' are replaced with 0 | Hello there | H3ll0 7h3r3 |
 | All letters of 'I' (not 'i') are replaced with 1 | I love this | 1 l0v3 7his |
 | All letters of 's' are replaced with z | I love this | 1 l0v3 7hiz |
+| User inputs text, that text is returned back in leetspeak | I love this | 1 l0v3 7hiz |
 
 
 

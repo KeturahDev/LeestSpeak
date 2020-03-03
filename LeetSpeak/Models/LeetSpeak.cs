@@ -36,7 +36,39 @@ namespace LeetSpeak
     }
     static void Main()
     {
-      Console.WriteLine("tada");
+      Console.ForegroundColor = ConsoleColor.Blue;
+      Console.WriteLine(@"    __              __  _____                  __   __
+   / /   ___  ___  / /_/ ___/____  ___  ____ _/ /__/ /
+  / /   / _ \/ _ \/ __/\__ \/ __ \/ _ \/ __ `/ //_/ / 
+ / /___/  __/  __/ /_ ___/ / /_/ /  __/ /_/ / ,< /_/  
+/_____/\___/\___/\__//____/ .___/\___/\__,_/_/|_(_)   
+                         /_/ ");
+      Console.ResetColor();
+      Start();
+    }
+    public static void Start()
+    {
+      Console.WriteLine("Translate [T] or Exit [E]?");
+      string response = Console.ReadLine().ToLower();
+      if (response == "t")
+      {
+        Translating();
+      }
+      else if (response == "e")
+      {
+        Console.WriteLine("goodbye!");
+      }
+    }
+    public static void Translating()
+    {
+      Console.WriteLine("Input anything, and will give it to you in a harder to read format");
+      string input = Console.ReadLine();
+      string output = Translate(input);
+
+      Console.ForegroundColor = ConsoleColor.Magenta;
+      Console.WriteLine(output);
+      Console.ResetColor();
+      Start();
     }
   }
 }
