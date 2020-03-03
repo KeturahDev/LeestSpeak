@@ -21,10 +21,14 @@ namespace LeetSpeak
         {
           chars.SetValue('0', i);
         }
-        if (chars[i] == 'I') 
-        {
-          chars.SetValue('1', i);
-        }
+      if (chars[i] == 'I') 
+      {
+        chars.SetValue('1', i);
+      }
+      if (chars[i] == 's') 
+      {
+        chars.SetValue('z', i);
+      }
 
       }
       string output = string.Join("", chars);

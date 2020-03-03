@@ -9,7 +9,7 @@ namespace LeetSpeak.Tests
     [TestMethod]
     public void Translate_ChangeEsTo3s_sl33p()
     {
-      Assert.AreEqual("sl33p", LeetSpeak.Translate("sleep"));
+      Assert.AreEqual("zl33p", LeetSpeak.Translate("sleep"));
     }
     [TestMethod]
     public void Translate_ChangeTsTo7s_7im3()
@@ -24,7 +24,7 @@ namespace LeetSpeak.Tests
     [TestMethod]
     public void Translate_ChangeCapIsTo1s_1ns0mnia()
     {
-      Assert.AreEqual("1ns0mnia", LeetSpeak.Translate("Insomnia"));
+      Assert.AreEqual("1nz0mnia", LeetSpeak.Translate("Insomnia"));
     }
     [TestMethod]
     public void Translate_ChangeCapSsToZs_1nz0mnia()
