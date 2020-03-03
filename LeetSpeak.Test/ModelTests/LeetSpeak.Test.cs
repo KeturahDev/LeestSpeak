@@ -26,5 +26,10 @@ namespace LeetSpeak.Tests
     {
       Assert.AreEqual("1ns0mnia", LeetSpeak.Translate("Insomnia"));
     }
+    [TestMethod]
+    public void Translate_ChangeCapSsToZs_1nz0mnia()
+    {
+      Assert.AreEqual("1nz0mnia", LeetSpeak.Translate("Insomnia"));
+    }
   }
 }
