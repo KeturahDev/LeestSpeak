@@ -11,5 +11,10 @@ namespace LeetSpeak.Tests
     {
       Assert.AreEqual("sl33p", LeetSpeak.Translate("sleep"));
     }
+    [TestMethod]
+    public void Translate_ChangeTsTo7s_7im3()
+    {
+      Assert.AreEqual("7im3", LeetSpeak.Translate("time"));
+    }
   }
 }

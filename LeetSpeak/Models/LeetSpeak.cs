@@ -6,15 +6,20 @@ namespace LeetSpeak
     public static string Translate(string input)
     {
 
-      char[] characterArray = input.ToCharArray();
-      for (int i = 0; i < characterArray.Length; i++)
+      char[] chars = input.ToCharArray();
+      for (int i = 0; i < chars.Length; i++)
       {
-        if (characterArray[i] == 'e') 
+        if (chars[i] == 'e') 
         {
-          characterArray.SetValue('3', i);
+          chars.SetValue('3', i);
         }
+        // if (chars[i] == 't') 
+        // {
+        //   chars.SetValue('7', i);
+        // }
+
       }
-      string output = string.Join("", characterArray);
+      string output = string.Join("", chars);
       return output;
     }
     static void Main()
