@@ -17,6 +17,10 @@ namespace LeetSpeak
         {
           chars.SetValue('7', i);
         }
+        if (chars[i] == 'o') 
+        {
+          chars.SetValue('0', i);
+        }
 
       }
       string output = string.Join("", chars);
