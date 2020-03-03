@@ -51,10 +51,10 @@ Wanna feel like your reading "coded" messages from a 5th grader? Leet-afy your c
 
 
 ## Known Bugs
-Currently there's two known bugs- 1) When given the choice to input a number for quantity of bread or pastry, if you type in a word, the game will crash and youll have to restart. 2) When you add one type of item, then go back to add more of that same type, the second entry will overwrite the first one instead of compiling them together.
+Currently there's no known bugs.
 
 ## Contact Info 
-Currently theres two known bugs, however, if there are any issues running this website I would love feedback! Please email me at keturah.dev@gmail.com.
+Currently there's no known bugs, however, if there are any issues running this website I would love feedback! Please email me at keturah.dev@gmail.com.
 
 ## License
 
