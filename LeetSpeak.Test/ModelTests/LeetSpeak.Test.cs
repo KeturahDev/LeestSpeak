@@ -17,9 +17,14 @@ namespace LeetSpeak.Tests
       Assert.AreEqual("7im3", LeetSpeak.Translate("time"));
     }
     [TestMethod]
-    public void Translate_ChangeTsTo7s_m00n()
+    public void Translate_ChangeOsTo0s_m00n()
     {
       Assert.AreEqual("m00n", LeetSpeak.Translate("moon"));
+    }
+    [TestMethod]
+    public void Translate_ChangeCapIsTo1s_1ns0mnia()
+    {
+      Assert.AreEqual("1ns0mnia", LeetSpeak.Translate("Insomnia"));
     }
   }
 }
