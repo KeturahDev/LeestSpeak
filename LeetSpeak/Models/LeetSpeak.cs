@@ -13,10 +13,10 @@ namespace LeetSpeak
         {
           chars.SetValue('3', i);
         }
-        // if (chars[i] == 't') 
-        // {
-        //   chars.SetValue('7', i);
-        // }
+        if (chars[i] == 't') 
+        {
+          chars.SetValue('7', i);
+        }
 
       }
       string output = string.Join("", chars);
